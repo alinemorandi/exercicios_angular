@@ -1,0 +1,5 @@
+<input placeholder="digite um nome" #campo>
+<button (click)="enviar(campo.value)">Enviar</button>
+<ul *ngFor="let r of nomes">
+  <li>{{r}}</li>
+</ul>
